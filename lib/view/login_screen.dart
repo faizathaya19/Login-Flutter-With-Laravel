@@ -71,6 +71,7 @@ class _LoginScreenState extends State<LoginScreen> {
                               const SizedBox(
                                 height: 8,
                               ),
+                              buildRemember(size),
                             ],
                           ),
                         ),
@@ -233,6 +234,23 @@ class _LoginScreenState extends State<LoginScreen> {
           ],
         ),
       ),
+    );
+  }
+
+  Widget buildRemember(Size size) {
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        TextButton(
+          onPressed: () {},
+          child: const Text(
+            "Forgot Password",
+            style: TextStyle(
+              color: Color(0xFFDA3340),
+            ),
+          ),
+        ),
+      ],
     );
   }
 

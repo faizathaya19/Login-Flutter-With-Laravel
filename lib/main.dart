@@ -149,18 +149,18 @@ class _MyAppState extends State<MyApp> {
 //             ),
 //             const Spacer(),
 //             // Register Button
-//             Row(
-//               mainAxisAlignment: MainAxisAlignment.center,
-//               children: [
-//                 const Text("Don't have an account?"),
-//                 TextButton(
-//                     onPressed: () {},
-//                     child: const Text(
-//                       "Register",
-//                       style: TextStyle(
-//                         color: Color(0xFFDA3340),
-//                       ),
-//                     ),),
+            // Row(
+            //   mainAxisAlignment: MainAxisAlignment.center,
+            //   children: [
+            //     const Text("Don't have an account?"),
+            //     TextButton(
+            //         onPressed: () {},
+            //         child: const Text(
+            //           "Register",
+            //           style: TextStyle(
+            //             color: Color(0xFFDA3340),
+            //           ),
+            //         ),),
 //               ],
 //             ),
 //           ],
